@@ -17,11 +17,11 @@ JWT_SECRET = "your-jwt-secret-key-change-this-in-production"
 
 [[kv_namespaces]]
 binding = "img_url"
-id = "da52b8e6711b48a1ad6abf367e3ae44a"
+id = "7700708ab7e441b8b980fa46b39bcc3f"
 
 [[kv_namespaces]]
 binding = "users"
-id = "35d724932d7f40cba53e6b9c0e7221f2"
+id = "005a66863dc54fc5b87210d7bf2d27f9"
 
 [site]
 bucket = "./public"
