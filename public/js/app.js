@@ -368,9 +368,9 @@ function initUpload() {
                 return;
             }
 
-            // 文件大小检查 (限制为10MB)
-            if (files[i].size > 10 * 1024 * 1024) {
-                showError('每个图片大小不能超过10MB！');
+            // 文件大小检查 (修改为限制50MB)
+            if (files[i].size > 50 * 1024 * 1024) {
+                showError('每个图片大小不能超过50MB！');
                 return;
             }
         }
